@@ -1,5 +1,3 @@
-![Calmaria Spa](./assets/thumbnail.png)
-
 # 🌿 Calmaria Spa
 
 > Um refúgio digital de bem-estar e saúde focado em Acessibilidade Web, design responsivo e estruturação CSS modular.
