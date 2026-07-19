@@ -1,39 +1,96 @@
-![Calmaria Spa](./assets/thumbnail.png)
+# 🌿 Calmaria Spa
 
-# Calmaria Spa
+> Um refúgio digital de bem-estar e saúde focado em Acessibilidade Web, design responsivo e estruturação CSS modular.
 
-A Calmaria Spa é um empresa de bem estar e saúde. Nesse momento, temos o código inicial da sua landing page, onde vamos encontrar pontos de melhoria para tornar o projeto acessível a todas as pessoas usuárias.
+<p align="center">
+  <img src="./assets/screenshot.png" alt="Demonstração do Calmaria Spa" width="70%">
+</p>
 
-<img src="./assets/screenshot.png" alt="Calmaria Spa" width="50%">
+---
 
+## 🌐 Acesse o Projeto
 
-## 🔨 Funcionalidades do projeto
+O projeto está publicado e pode ser acessado diretamente através do GitHub Pages:
+👉 **[https://josefelisbino.github.io/Calmaria-Spa/](https://josefelisbino.github.io/Calmaria-Spa/)**
 
-Nesse primeiro momento, nós temos a página que foi idealizada como a primeira entrega do time de desenvolvimento.
+---
 
-Durante o curso, nós vamos analisar e refatorar o código do projeto. 
-O desafio é encontrar pontos de melhoria para tornar o projeto Calmaria Spa acessível para todas as pessoas usuárias. 
+## 📝 Descrição do Projeto
 
-O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/1pDTUXo7ovT6zlE64Zw509/Calmaria-Spa--%7C-Forma%C3%A7%C3%A3o-Acessibilidade?type=design&node-id=98-1263&mode=design&t=iIe3hZrzPEvVEi0o-0).
+O **Calmaria Spa** é uma landing page desenvolvida para uma empresa fictícia de saúde e bem-estar. A aplicação foi idealizada para proporcionar uma experiência de navegação agradável, relaxante e harmoniosa.
 
-## ✔️ Técnicas e tecnologias utilizadas
+Este repositório foi construído no âmbito dos cursos de Acessibilidade Web da **Alura**, onde o objetivo central é identificar pontos de melhoria no código HTML/CSS e refatorá-los para tornar a aplicação completamente acessível a todas as pessoas usuárias, garantindo conformidade com as diretrizes da Web Accessibility (a11y).
 
-Se liga nessa lista de tudo que usaremos nesse curso:
+---
 
-- `HTML`
-- `CSS`
-- `Acessibilidade Web`
-- `Figma`
+## 🎯 Objetivos do Projeto
 
-E muito mais!
+- ♿ **Acessibilidade Digital (a11y)**: Garantir acessibilidade para pessoas que utilizam leitores de tela, navegação por teclado, navegação por voz ou possuem baixa visão.
+- 📐 **Arquitetura CSS Modular**: Organizar e modularizar arquivos de estilo CSS por componentes, melhorando a manutenibilidade do código.
+- 📱 **Design Responsivo**: Adaptar a interface para uma visualização otimizada em dispositivos móveis (Mobile), tablets e desktops.
+- 🎨 **Fidelidade ao Design**: Implementar com precisão o layout proposto no [Figma do Projeto](https://www.figma.com/file/1pDTUXo7ovT6zlE64Zw509/Calmaria-Spa--%7C-Forma%C3%A7%C3%A3o-Acessibilidade?type=design&node-id=98-1263&mode=design&t=iIe3hZrzPEvVEi0o-0).
 
-## 🛠️ Abrir e rodar o projeto
+---
 
-Para abrir e rodar o projeto, utilize um editor de código de sua escolha.
+## 📁 Estrutura de Pastas do Projeto
 
-Depois, abra o projeto no seu navegador.
+A estrutura de arquivos do projeto está organizada de forma modular da seguinte maneira:
 
-## 📚 Mais informações do curso
+```
+Calmaria-Spa/
+├── assets/                          # Imagens, vetores SVG e ícones do projeto
+│   ├── Favicon.svg                  # Ícone de aba do navegador
+│   ├── logo.png                     # Logotipo oficial do Calmaria Spa
+│   ├── home-image.png               # Imagem principal da seção Hero
+│   ├── espaco-1.png, espaco-2.png   # Imagens dos espaços e instalações
+│   ├── icon-*.png                   # Ícones dos cards de serviços
+│   ├── mandala-*.svg                # Elementos gráficos decorativos
+│   ├── screenshot.png               # Captura de tela para documentação
+│   └── thumbnail.png                # Thumbnail do repositório
+├── styles/                          # Estilos CSS divididos por componentes
+│   ├── style.css                    # Estilos globais e variáveis
+│   ├── cabecalho.css                # Estilização do cabeçalho e menu
+│   ├── container--primeiro.css      # Estilização da seção de destaque (Hero)
+│   ├── container--secao.css         # Estilização das seções institucionais
+│   ├── container--cards.css         # Estilização dos cards de serviços
+│   ├── container--inscricao.css     # Estilização do formulário de newsletter
+│   ├── container--contato.css       # Estilização da seção de contato
+│   └── rodape.css                   # Estilização do rodapé e redes sociais
+├── index.html                       # Documento HTML principal da landing page
+└── README.md                        # Documentação completa do repositório
+```
 
-O Calmaria Spa é uma empresa fictícia utilizada nesse curso da Alura.
-A ideia principal desse curso é evoluir ainda mais os conhecimentos em Acessibilidade Web com foco em CSS. 
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**: Estruturação semântica das seções e elementos da página.
+- **CSS3**: Estilização moderna, uso de Flexbox, CSS Grid e design responsivo.
+- **Acessibilidade Web (WCAG / a11y)**: Uso de HTML semântico, atributos ARIA e boas práticas de contraste e navegação.
+- **Google Fonts**: Tipografias *Krona One*, *Montserrat* e *Open Sans*.
+- **Figma**: Referência de design visual e prototipagem.
+- **GitHub Pages**: Hospedagem e publicação do projeto.
+
+---
+
+## ⚡ Como Executar o Projeto Localmente
+
+1. **Clonar o Repositório**:
+   ```bash
+   git clone https://github.com/JoseFelisbino/Calmaria-Spa.git
+   ```
+
+2. **Acessar a pasta do projeto**:
+   ```bash
+   cd Calmaria-Spa
+   ```
+
+3. **Abrir no navegador**:
+   - Basta dar um duplo clique no arquivo `index.html` ou utilizar a extensão **Live Server** no VS Code.
+
+---
+
+## 📄 Licença e Créditos
+
+- Projeto fictício desenvolvido para fins educacionais nos cursos da **Alura**.
+- Desenvolvido e mantido por **José Felisbino**.
